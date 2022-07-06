@@ -1,0 +1,42 @@
+package Levels.Level6.Lesson1;
+
+/*
+    TASK:
+        The main method prints too many lines of information about various concepts.
+        It would make sense to separate displaying information about hydrogen from displaying information about
+        the island of Java by separating them into different methods.
+
+        Create a public static void printHydrogenInfo() method, which should print all the lines about hydrogen.
+        Also, create a public static void printJavaInfo() method, which should print all the lines about the island of Java.
+        Finally, in the main() method, call these two methods.
+
+        The general console output shouldn't change.
+ */
+
+public class Task01 {
+    public static void main(String[] args) {
+        printHydrogenInfo();
+        printJavaInfo();
+    }
+
+    public static void printHydrogenInfo() {
+        System.out.println("Hydrogen:");
+        System.out.println("This is a chemical element in the periodic table. Its designation is H, and its atomic number is 1.");
+        System.out.println("It is the lightest element in the table.");
+        System.out.println("Hydrogen is used in:");
+        System.out.println("- the chemical industry");
+        System.out.println("- the oil refining industry");
+        System.out.println("- aviation");
+        System.out.println("- power generation.");
+    }
+
+    public static void printJavaInfo() {
+        System.out.println("Island of Java:");
+        System.out.println("It is part of Indonesia.");
+        System.out.println("The states of Mataram, Majapahit, and Demak originated on the island.");
+        System.out.println("Java is the most populated island in the world:");
+        System.out.println("The total population is 140 million people.");
+        System.out.println("The population density is 1,061 people per square kilometer.");
+        System.out.println("Kopi luwak, a famous variety of coffee, is produced here.");
+    }
+}
